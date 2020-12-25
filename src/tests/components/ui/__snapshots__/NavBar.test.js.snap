@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing en <NavBar /> Despliegue correcto 1`] = `
+<nav
+  className="nav"
+>
+  <a
+    className="nav-logo"
+    onClick={[Function]}
+  >
+    <h1>
+      Heroes App
+    </h1>
+  </a>
+  <div
+    className="nav-content"
+  >
+    <a
+      aria-current={null}
+      onClick={[Function]}
+    >
+      <p>
+        Marvel
+      </p>
+      <img
+        alt="marvel"
+        src="./assets/nav/marvel.png"
+        style={
+          Object {
+            "maxWidth": 240,
+          }
+        }
+      />
+    </a>
+    <a
+      aria-current={null}
+      onClick={[Function]}
+    >
+      <p>
+        DC
+      </p>
+      <img
+        alt="dc"
+        src="./assets/nav/dc.png"
+        style={
+          Object {
+            "maxWidth": 140,
+          }
+        }
+      />
+    </a>
+    <a
+      aria-current={null}
+      onClick={[Function]}
+    >
+      <p>
+        Búsqueda
+      </p>
+      <div>
+        <i
+          className="fas fa-search"
+        />
+      </div>
+    </a>
+  </div>
+</nav>
+`;
